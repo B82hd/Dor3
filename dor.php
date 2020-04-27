@@ -2,7 +2,7 @@
 
 include 'req.php';
 
-$tri = new tri();
+$indosat = indosatooredoo();
 $imei = "984401653541292";
 echo "Masukkan No Telepon : ";
 $msisdn = trim(fgets(STDIN));
